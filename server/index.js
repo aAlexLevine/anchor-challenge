@@ -4,7 +4,9 @@ const app = express();
 
 app.use(express.static(__dirname + '/../react-client/dist'));
 
-app.listen(3000, function() {
-  console.log('listening on port 3000!');
+let port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+  console.log(`listening on port ${port}*!`);
 });
 
