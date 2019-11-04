@@ -1,0 +1,23 @@
+.button {
+  padding: 0px;
+  cursor: pointer;
+  background-color: rgb(137, 64, 250);
+  border-color: rgb(137, 64, 250);
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: black 0px 0px 0px 0px inset;
+  max-width: 220px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-text {
+  color: white;
+  padding: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 16px;
+}

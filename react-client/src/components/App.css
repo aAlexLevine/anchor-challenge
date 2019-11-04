@@ -1,0 +1,56 @@
+.prompt-container {
+  margin: 0 150px 0 150px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: white;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+
+.prompt {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 2px;
+  min-width: 100%;
+  min-height: 175px;
+  overflow: scroll;
+  white-space: pre-wrap;
+}
+
+.color {
+  color: #8940fa;
+}
+
+.results-container {
+  background: #171a1e;
+  min-height: 325px;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.analyzeButton {
+  padding-top: 45px;
+}
+
+.result {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 2px;
+  margin-top: 45px;
+
+}
+
+.computing {
+  color: #2effd9;
+  margin-top: 45px;
+}
