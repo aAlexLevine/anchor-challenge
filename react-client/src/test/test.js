@@ -24,7 +24,7 @@ describe('findLargestUniqueSetToRemove', () =>{
     expect(findLargestUniqueSetToRemove('', 1)).to.deep.equal([])
   })
 
-  it('it only only counts characters if min length can be met', () => {
+  it('only counts characters if min length can be met', () => {
     expect(findLargestUniqueSetToRemove('aaaaaa', 1)).to.deep.equal([])
     expect(findLargestUniqueSetToRemove('aaaaaaaa', 0)).to.deep.equal(['a'])
     expect(findLargestUniqueSetToRemove('abcde', 5)).to.deep.equal([])

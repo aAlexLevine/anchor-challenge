@@ -3,10 +3,10 @@
 This app visualizes the coding challenge below.
   > If you want to jumpstart the process of talking to us about this role, here’s a little challenge: write a program that outputs the largest unique set of characters that can be removed from this paragraph without letting its length drop below 50.
 
-Demo is available here `https://anchor-challenge.herokuapp.com/`.
+Demo is available [here](https://anchor-challenge.herokuapp.com/).
 
-main function logic is in src/utils.js
-tests are in src/tests/test.js
+main function logic is in react-client/src/utils.js  
+tests are in react-client/src/tests/test.js
 
 ## Development
 
