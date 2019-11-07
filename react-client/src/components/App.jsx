@@ -51,13 +51,13 @@ class App extends React.Component {
   animateText() {
     const { text, index, frontHalf, backHalf, currLetter} = this.state
     if (index < text.length) {
-        this.setState({
-          scanning: true,
-          frontHalf: text.slice(0, index),
-          currLetter: text[index],
-          backHalf: text.slice(index + 1),
-          text: frontHalf + currLetter + backHalf
-        }, this.shouldRemove) 
+      this.setState({
+        scanning: true,
+        frontHalf: text.slice(0, index),
+        currLetter: text[index],
+        backHalf: text.slice(index + 1),
+        text: frontHalf + currLetter + backHalf
+      }, this.shouldRemove)
     } else {
       this.setState({
         scanning: false,
@@ -78,7 +78,9 @@ class App extends React.Component {
         text: frontHalf + backHalf
       })
     } else {
-      this.setState({index: index + 1})
+      this.setState({
+        index: index + 1
+      })
     }
     setTimeout(() => {
       this.animateText()
@@ -135,8 +137,8 @@ class App extends React.Component {
             : null}
 
           <div>
-            {this.state.showResult ?
-              <h2 className="result">Result: [{this.state.uniqueArr.toString()}]</h2>
+            {this.state.showResult 
+            ? <h2 className="result">Result: [{this.state.uniqueArr.toString()}]</h2>
             : null}
           </div>
         </div>
