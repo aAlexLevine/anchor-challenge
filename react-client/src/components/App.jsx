@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 import Header from './Header.jsx';
-import Button from './Button.jsx'
-import { findLargestUniqueSetToRemove, text } from '../utils.js'
+import Button from './Button.jsx';
+import { findLargestUniqueSetToRemove, text } from '../utils.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -138,8 +138,8 @@ class App extends React.Component {
 
           <div>
             {this.state.showResult 
-            ? <h2 className="result">Result: [{this.state.uniqueArr.toString()}]</h2>
-            : null}
+              ? <h2 className="result">Result: [{this.state.uniqueArr.toString()}]</h2>
+              : null}
           </div>
         </div>
       </div>
