@@ -22,7 +22,7 @@
     "chai": "^4.2.0",
     "css-loader": "^0.28.10",
     "file-loader": "^4.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "style-loader": "^0.20.2",
     "webpack": "^2.2.1",
     "webpack-css-loaders": "^1.0.0"
